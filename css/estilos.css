@@ -1,19 +1,52 @@
 body{
   font-family: 'Dancing Script', cursive;
+  margin: 0 5% 0 5%;
+
 }
 header{
   background: #5b7989;
   color: white;
   border-radius: 10px 10px 0 0;
+  -wedkit-border-radius:10px 10px 0 0;
+  -noz-border-radius: 10px 10px 0 0;
+
 }
+
 h1{
 text-align: left;
 text-shadow: 2px 2px 2px #02010a;
 display: inline;
-
+padding: 1% 0 1% 1%;
 }
+
 header nav{
   height: 90%;
   float: right;
-  text-decoration: none;
+  margin: 1% 1% 1%;
+}
+nav a{
+text-decoration: none;
+}
+#contenedor{
+  display: flex;
+  flex-flow: wrap;
+}
+#imagen1{
+  background: #82c3a6;
+  text-align: center;
+  margin: 1%;
+  padding: 1%;
+}
+#imagen1 img{
+  height: 98%;
+  width: 98%;
+  float: none;
+}
+#imagen2{
+
+
+}
+#imagen3{
+
+
 }
