@@ -1,0 +1,19 @@
+body{
+  font-family: 'Dancing Script', cursive;
+}
+header{
+  background: #5b7989;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+h1{
+text-align: left;
+text-shadow: 2px 2px 2px #02010a;
+display: inline;
+
+}
+header nav{
+  height: 90%;
+  float: right;
+  text-decoration: none;
+}
