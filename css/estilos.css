@@ -1,6 +1,7 @@
 body{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script';
   margin: 0 5% 0 5%;
+  background: #02010a;
 
 }
 header{
@@ -9,14 +10,13 @@ header{
   border-radius: 10px 10px 0 0;
   -wedkit-border-radius:10px 10px 0 0;
   -noz-border-radius: 10px 10px 0 0;
-
 }
 
 h1{
 text-align: left;
 text-shadow: 2px 2px 2px #02010a;
 display: inline;
-padding: 1% 0 1% 1%;
+padding: 1%;
 }
 
 header nav{
@@ -30,6 +30,7 @@ text-decoration: none;
 #contenedor{
   display: flex;
   flex-flow: wrap;
+  margin-top: 0;
 }
 #imagen1{
   background: #82c3a6;
@@ -42,11 +43,64 @@ text-decoration: none;
   width: 98%;
   float: none;
 }
-#imagen2{
 
+@media (min-width:720px){
+#contenedor2{
+display: flex;
+flex-flow: column;
+flex-direction: row;
+background: #d5c75f;
+}
+#imagen2{
+  width: 50%;
+  margin: 0;
+  padding: 1%;
+  text-align: center;
 
 }
 #imagen3{
+  width: 50%;
+  margin: 0;
+  padding: 1%;
+  text-align: center;
+}}
 
+#imagen2 img{
+  width: 95%;
+  float: left;
+  box-shadow: 4px 4px 4px #82c3a6;
+  border: solid black 2px;
 
 }
+#imagen2 img:hover{
+  transform: rotate(10deg);
+}
+#imagen3 img{
+  width: 95%;
+  float: right;
+  box-shadow: 4px 4px 4px #82c3a6;
+  border: solid black 2px;
+}
+#imagen3 img:hover{
+  transform: translate(20px,-5px);
+}
+
+@media (max-width:720px){
+#contenedor2{
+display: flex;
+flex-flow: row wrap;
+background: #d5c75f;
+}
+#imagen2{
+  width: 98%;
+  margin: 0;
+  padding: 1%;
+  text-align: center;
+
+}
+#imagen3{
+  width: 98%;
+  margin: 0;
+  padding: 1%;
+  text-align: center;
+}}
