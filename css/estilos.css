@@ -1,6 +1,5 @@
 body{
   font-family: 'Dancing Script';
-  /*margin: 0 5% 0 5%;*/
   background: #02010a;
 
 }
@@ -39,19 +38,17 @@ color: white;
   display: flex;
   flex-flow: wrap;
   margin: 0%;
-  width: 100%;
 
 }
 #imagen1{
   background: #82c3a6;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
   width: 100%;
 }
 #imagen1 img{
   width: 100%;
-  float: none;
+  float: center;
 }
 
 @media (min-width:900px){
@@ -65,17 +62,10 @@ margin: 0%;
 .contenido{
   width: 900px;
   margin: auto;
-
 }
-#imagen2{
+#contenedor2 >div{
   width: 50%;
   margin: 0%;
-  padding: 1%;
-  text-align: center;
-}
-#imagen3{
-  width: 50%;
-  margin: 0;
   padding: 1%;
   text-align: center;
 }
@@ -84,22 +74,11 @@ footer{
   flex-flow: column;
   flex-direction: row;
   }
-  #contacto {
+  footer >div{
     width: 25%;
     float: left;
   }
-  #terminos {
-    width: 25%;
-    float: left;
-  }
-  #redes{
-    width: 25%;
-    float: left;
-  }
-  #Derecho{
-    width: 25%;
-    float: left;
-  }}
+}
 @media (max-width:900px){
 #contenedor2{
 display: flex;
@@ -109,20 +88,25 @@ margin: 0%;
 }
 .contenido{
   width: 100%;
-  float: center;
+  margin: auto;
 }
-#imagen2{
-  width: 100%;
-  margin: 0%;
-  padding: 1%;
-  text-align: center;
+header{
+  display: flex;
+  flex-flow: wrap;
 }
-#imagen3{
+header h1{
+    margin: auto;
+}
+header >nav{
+    margin: auto;
+}
+#contenedor2 >div{
   width: 100%;
   margin: 0%;
   padding: 1%;
   text-align: center;
 }}
+
 #imagen2 img{
   width: 100%;
   float: left;
@@ -149,7 +133,6 @@ footer{
   border-radius: 0 0 10px 10px;
   -wedkit-border-radius:0 0 10px 10px;
   -noz-border-radius: 0 0 10px 10px;
-
 }
 footer img{
   width: 10%;
